@@ -1,0 +1,72 @@
+/*
+*
+*
+Black Magik Design, 2023
+*
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200&family=Creepster&family=Dancing+Script&family=Exo+2:wght@100;200&family=Explora&family=Gloock&family=Josefin+Sans:wght@100;200&family=Open+Sans:wght@300;400&family=Press+Start+2P&family=Quicksand:wght@300&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&family=Zeyada&display=swap');
+
+
+
+body {
+    overflow-x: ;
+}
+
+:root {
+    --font-one: #000;
+    --font-two: #fff;
+    --font-three:;
+    --font-four:;
+    --font-five:;
+    --font-six:;
+    --back-one: #000;
+    --back-two: #fff;
+    --back-three:;
+    --back-four:;
+    --back-five:;
+    --highlight-one:;
+    --highlight-two:;
+    --highlight-three:;
+    --neon-green: #0FED27;
+    --light-green: #0FED4C;
+    --light-blue: #0FED9C;
+    --cool-blue: #0FEDC5;
+    --blue-blue: #0F71ED;
+    --purple-blue: #0F12ED;
+    --purple-one: #630FED;
+    --purple-two: #8F0FED;
+    --pink-one: #CF0FED;
+    --pink-two: #EA0FED;
+    --pink-red: #EA0FED;
+    --pink-three: #ED0F9C;
+    --heart-red: #ED0F52;
+    --red-red: #ED0F2A;
+    --pumpkin-orange: #ED8F0F;
+    --orange-one: #F87A03;
+    --gold-yellow: #E2C314;
+    --yellow-one: #F7F303;
+    --dark-gray: #566573;
+    --light-gray: #808B96;
+    --other-gray: #95A5A6;
+    --gray-one: #717D7E;
+    --gray-two: #CCD1D1;
+    
+}
+
+
+.main_word_box {
+    width: 100%;
+
+}
+
+.carousel {
+    width: 90%;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: contain;
+}
+
