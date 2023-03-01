@@ -12,6 +12,15 @@ body {
 	max-width: 2000px; 
 	margin: 0 auto !important; 
 	float: none !important; 
+
+}
+
+nav,
+section  {
+	max-width:  2000px !important;
+	margin: 0 auto !important;
+	float: none !important;
+	
 }
 
 :root {
