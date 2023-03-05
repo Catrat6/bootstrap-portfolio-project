@@ -282,6 +282,15 @@ section  {
 	display: none;
 }
 
+/* owl and stag project */
+
+.lang_list {
+	list-style-type:  none;
+	padding-left:  2vw;
+	display: flex;
+	flex-direction:  column;
+}
+
 @media screen and (max-width: 768px) {
 	.main-footer {
 		flex-direction: column;
