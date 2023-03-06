@@ -15,33 +15,40 @@
      <title>Black Magik Design | Home</title>
    </head>
    <body style="background: black;">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-         <div class="container-fluid">
-            <a class="navbar-brand d-none d-md-block" href="#">
-               <img src="favicon_io_two/android-chrome-192x192.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
-            </a>
-            <a href="mailto:loadedcoal@gmail.com" class="navbar-brand fs-2 text-warning"> Black Magik <strong>Design</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav">
-                  <li class="nav-item">
-                     <a class="nav-link fs-4" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link  fs-4" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link fs-4" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
-                  </li>
-                  <div class="nav-item">
-                     
-                  </div>
-               </ul>
-            </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+         <a class="navbar-brand d-none d-md-block" href="#">
+            <img src="favicon_io_two/android-chrome-192x192.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+         </a>
+         <a href="mailto:loadedcoal@gmail.com" class="navbar-brand fs-2 text-warning"> Black Magik <strong>Design</strong></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link fs-4" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link fs-4" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+               </li>
+               <li class="nav-item dropdown fs-4">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Portfolio
+                  </a>
+                  <ul class="dropdown-menu bg-dark">
+                    <li><a class="dropdown-item text-warning fs-3" href="portfolio-one.html">Owl and Stag</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-danger fs-3" href="#">N.T. Porchfest</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-success fs-3" href="#">Other Projects</a></li>
+                  </ul>
+                </li>
+             
+            </ul>
          </div>
-      </nav>
+      </div>
+   </nav>
       <section class="owlandstag" style="min-height:  100vh;">
         <div class="container-fluid text-center">
             <div class="row">
@@ -52,13 +59,15 @@
                     My first Client
                 </p>
                 <p class="text-white fs-5 px-2 px-lg-5">
-                    This was my first step in to web design.  At the time I had been teaching myself for about 1 year and friend of mine needed an origional and professional website so that he could get rid of what he was currently hosting on squarespace.  He already had a template that he wanted to use for the basis but had a lot of requests and changes he wanted to make. 
+                  This was my first client as a freelance web designer. At the time I had been teaching myself for about 1 year and a friend of mine needed an original and professional website so that he could get rid of what he was currently hosting on squarespace. He already had a template that he wanted to use for the basis but had a lot of requests and changes he wanted to make.
                 </p>
                 <p class="text-white fs-5 px-2 px-lg-5">
-                    This was honestly a great first project for me because it perfectly fit my expierence level at the time and also required me to learn about a bunch of new concepts, some of which I had never worked with before ... for incstance the website utilizes jQuery for multiple effects including page piling.
+                  This was honestly a great first project for me because it perfectly fit my experience level at the time and also required me to learn about a bunch of new concepts, some of which I had never worked with before ... for instance the website utilizes jQuery for multiple effects including page piling.
                 </p>
-                <p class="text-white fs-5 px-2 px-lg-5">Unfourtunately after putting in a bunch of work my friend got super backed up and we had to put the project off for a while.  However we recently picked back up where we left off and now the website is done and will be live in the next few days</p>
-                <div id="carouselExampleIndicators" class="carousel slide">
+                <p class="text-white fs-5 px-2 px-lg-5">
+                  Unfortunately after putting in a bunch of work my friend got super backed up and we had to put the project off for a while. However we recently picked back up where we left off and now the website is done and will be live in the next few days.  (time of writing 3/5/2023)
+                  </p>
+                <div id="carouselExampleIndicators" class="carousel slide py-3">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -96,7 +105,9 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                  <p class="text-white fs-5 px-2 px-lg-5">Above is a slide showing all the main sections of the webpage, everything is responsive and it uses page piling to achieve a shutter like feature.  The website also includes a project section which scrolls and shows a preview of the project when the mouse hovers over it.  Each project has its own seperate page.</p>
+                  <p class="text-white fs-5 px-2 px-lg-5">
+                     Above is a slide showing all the main sections of the webpage, everything is responsive and it uses page piling to achieve a shutter like feature. The website also includes a project section which scrolls and shows a preview of the project when the mouse hovers over it. Each project has its own separate page.
+                  </p>
        
                   <p class="text-white fs-5 px-2 px-lg-5">
                     Along with a bunch of modern features and concepts the page uses bootstrap and media queries to make it scale smoothly between screen sizes.  Every image you see on the page as well as the videos are the work of the client, no stock images where used at all.
